@@ -9,7 +9,8 @@ import matplotlib.animation as animation
 #target point
 
 class World():
-    def __init__(self):
+    def __init__(self,arm):
+        self.arm=arm
         self.fig=plt.figure()
         self.ax = plt.axes(projection='3d', autoscale_on=False, xlim=(-10, 10), ylim=(-10, 10),zlim=(-10,10))
         plt.plot(0,0,0,marker="o", markersize=5)
