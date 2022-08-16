@@ -1,2 +1,2 @@
 # tracker
-Target point tracking robotic hand simulation
+Target point tracking robotic arm simulation
